@@ -1,0 +1,329 @@
+body, h1, h2, h3, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Lato, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    margin:  0 auto;
+}
+
+/* HEADER INFO */
+
+
+.header-info{
+    background:  #F98050;
+    padding: 10px;
+    font-size: 0.875em;
+    text-align: center;
+    color: white;
+}
+
+/* HEADER */
+.header {
+    background: #253240;
+    padding: 20px 0;
+}
+
+.header-logo {
+    color: #fff;
+}
+
+.header-menu a{
+    color: #FFF;
+    font-size: 1.125em;
+    text-transform: uppercase;
+}
+
+.header-menu{
+    flex:1;
+    align-self: center;
+}
+
+.header-menu ul {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-menu ul li a{
+    padding: 0 10px;
+}
+
+.header-menu ul li a.botao{
+    border: 3px solid #F98050;
+    padding: 10px;
+    text-align: center;
+    transition: .3s ease-in;
+}
+
+.header-menu ul li a.botao:hover {
+    background: #F98050;
+}
+
+/* BANNER PARALLAX */
+.hero {
+    background: url(../img/banner-1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 720px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.hero h1 {
+    font-size: 4em;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 150px;
+}
+
+.hero h1::after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #FFF;
+    margin: 15px auto 0 auto;
+    
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: white;
+    padding-top: 50px;
+    font-style: italic;
+}
+
+
+/* SOBRE A EMPRESA */
+
+.sobre {
+    padding: 70px 0;
+}
+
+.sobre h1{
+    font-size: 1.875em;
+    text-align: center;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+.sobre h1::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #000;
+    margin: 15px auto;
+}
+
+.sobre-item {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.sobre-item i {
+    border: 3px solid #F98050;
+    padding: 10px;
+    width: 150px;
+}
+
+.sobre-item h3 {
+    font-size: 1.125em;
+    text-transform: uppercase;
+    margin: 20px 0 20px 0;
+    font-weight: bold;;
+}
+
+.sobre-item p{
+    line-height: 1.4;
+}
+
+/* HERO 2 */
+
+.hero-2 {
+    background: url(../img/banner-2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 480px;
+}
+
+
+/* NOSSOS PRODUTOS */
+.produtos {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.produtos h2 {
+    font-size: 1.875em;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.produtos h2::after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #000;
+    margin: 15px auto 0 auto;
+}
+
+.produtos p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    
+}
+
+.produto-item {
+    margin: 70px auto 70px auto;
+  
+}
+
+.produto-item img {
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 3px #F98050;
+}
+
+/* NEWSLETTER */
+
+.newsletter{
+    padding: 70px 0;
+    background: #253240;
+}
+
+.news-info{
+    flex:1;
+    color: white;
+}
+
+.news-info h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-bottom: 5px;
+}
+
+.news-info p{
+    font-size: 0.875em;
+}
+
+.newsletter form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter form input {
+    padding: 15px;
+    width: 300px;
+    font-size: 1.125em;
+    font-weight: bold;
+    border: 1px solid #F98050;
+}
+
+.newsletter form button {
+    background: none;
+    border: 3px solid #F98050;
+    font-size: 1.125em;
+    padding: 15px;
+    width: 90px;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.newsletter form button:hover{
+    background: #F98050;
+}
+
+
+/* FOOTER (RODAPÉ) */
+.footer{
+    background: #D0DAE2 ;
+    padding: 70px 0;
+    text-align: center;
+    color: #000;
+}
+
+.footer p{
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+.footer p:first-child {
+     margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
